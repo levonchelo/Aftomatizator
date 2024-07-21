@@ -1,5 +1,5 @@
 class Users:
-    Age = 0
+    
     def __init__(self, name):
         print ("i get home")
         self.username = name
@@ -7,8 +7,6 @@ class Users:
     def seyName ( self ) :
         print ("я создался", self.username)
     
-    def seyAge ( self ) :
-        print ( self.Age )
     
     def setAge ( self, newAge ) :
         self.Age = newAge 
