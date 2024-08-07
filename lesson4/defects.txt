@@ -7,17 +7,3 @@ def capitilize(self, string: str) -> str:
 
 Эта функция не работает нужно исправить в начале capitilize на capitalize
 
-@pytest.mark.parametrize('string, symbol, result', [
-    #Позитивные проверки:
-    ("Олег", "г", True),
-    ("олег", "г", True),
-    ("ОлеГ ", "Г", True),
-    ("7893", "3", True),
-    ("", "", True),
-    ("Andrey1", "1", True),
-    #Негативные проверки:
-    ("one", "P", False),
-    ("two", "e", False),
-    ("Three", "E", False),
-    ("", "n", False)
-])
