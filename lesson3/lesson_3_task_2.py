@@ -1,7 +1,7 @@
 from smartphone import Smartphone
 
 
-phone1 = Smartphone 
+phone1 = Smartphone
 phone2 = Smartphone 
 phone3 = Smartphone 
 phone4 = Smartphone 

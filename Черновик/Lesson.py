@@ -42,7 +42,7 @@ for x in range(0,len(students)):
 #else:
 #    print("Доступ запрещён")
 
-crit1 = "red"
+(variable) crit1: list[str]
 crit2 = "lock"
 Color=input("color:")
 Feture=input("Feture:")
