@@ -6,3 +6,7 @@ def capitilize(self, string: str) -> str:
         return string.capitalize()
 
 Эта функция не работает нужно исправить в начале capitilize на capitalize
+<<<<<<< HEAD
+=======
+
+>>>>>>> 547defba0b88805242ddb8477333a9b379720e94
