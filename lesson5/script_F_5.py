@@ -12,4 +12,5 @@ sleep(2)
 input_field.clear()
 input_field.send_keys('999')
 
+sleep(5)
 driver.quit()

@@ -14,3 +14,5 @@ password_input = driver.find_element(By.NAME, 'password')
 password_input.send_keys('SuperSecretPassword!')
 login_button = driver.find_element(By.CSS_SELECTOR, 'button.radius')
 login_button.click()
+
+sleep(5)

@@ -12,4 +12,5 @@ for i in range(5):
 numDelButton = driver.find_elements(By.XPATH, ("//button[text()='Delete']"))
 print(len(numDelButton))
 
+sleep(5)
 driver.quit()
